@@ -87,6 +87,13 @@
   padding: 20px 25px 5px 25px;
   border-radius: 0 5px 5px 0;
 }
+.b-red-style .percentage {
+  border: 1px solid #b2001a;
+  background-color: #b2001a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 1px;
+}
 
 .s-font {
   font-size: small;
