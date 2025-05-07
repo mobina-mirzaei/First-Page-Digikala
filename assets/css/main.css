@@ -95,6 +95,10 @@
   padding: 1px;
 }
 
+.span-font span {
+  font-size: small;
+}
+
 .s-font {
   font-size: small;
   color: #808080;
