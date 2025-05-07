@@ -1,0 +1,41 @@
+.bg-search{
+    background-color: white;
+}
+.city-select {
+    background-color: #fff3e0;
+    color: #ff5722;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .city-select i {
+    margin-left: 8px;
+    font-size: 18px;
+  }
+
+.nav-menu li a{
+    color: gray;
+}
+.nav-menu li a:hover{
+    color: gray;
+    border-bottom: 1px solid #ef394e;
+}
+.b-nav{
+    border-bottom: 1px solid rgba(230, 230, 230, 0.73);
+}
+.card-story{
+    border: none;
+}
+// .card-story img{
+//     background: linear-gradient(304deg, #e03d96, #7d4c9e);
+//     padding: 3px;
+// }
+.card-story img{
+    border: 2px solid transparent;
+    background: linear-gradient(#151515,#151515)padding-box,
+    linear-gradient(to top, #e03d96, #7d4c9e);
+    border-radius: 50%;
+    padding: 2px;
+}

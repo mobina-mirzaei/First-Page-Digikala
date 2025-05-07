@@ -1,0 +1,81 @@
+.nav-stick{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+.bg-search{
+    background-color: white;
+}
+.city-select {
+    background-color: #fff3e0;
+    color: #ff5722;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .city-select i {
+    margin-left: 8px;
+    font-size: 18px;
+  }
+
+.nav-menu li a{
+    color: gray;
+}
+.nav-menu li a:hover{
+    color: gray;
+    border-bottom: 1px solid #ef394e;
+}
+.b-nav{
+    border-bottom: 1px solid rgba(230, 230, 230, 0.73);
+}
+.card-story img{
+    border: 3px solid transparent;
+    background: linear-gradient(#fff,#fff)padding-box,
+    linear-gradient(45deg, #e03d96, #7d4c9e)border-box;
+    border-radius: 50%;
+    padding: 3px;
+    outline: 3px solid #fff;
+}
+.card{
+    border: none;
+}
+.img-one{
+    border-radius: 12px;
+}
+.f-bg{
+    background-color: #3c4b6d;
+}
+.s-font{
+    font-size: small;
+    color: rgb(146, 143, 143);
+    direction: center;
+  }
+.back-footer{
+    background-color: #e1e1e3;
+}
+.card1{
+    border: 1px solid rgb(166, 164, 164);
+}
+.back-style{
+    background-color: rgb(203, 203, 201);
+    background-image: url(../images/freshPattern.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 12px;
+}
+.style-b1 button{
+    color: #fff;
+    background-color: green;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+}
+.style-b2 button{
+    color: green;
+    background-color: white;
+    border: none;
+    padding:10px;
+    border-radius: 30px;
+}
