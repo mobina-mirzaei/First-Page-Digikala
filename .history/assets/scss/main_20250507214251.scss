@@ -196,8 +196,10 @@ $color-darkred:#b2001a;
     color:$color-gray;
 }
 .btn-style{
-    border:1px solid $color-lightgray;
-    background-color:$color-white;
+    // border:1px solid $color-lightgray;
+    border:1px solid pink;
+
+    background-color: #fff;
     border-radius: 7px;
 }
 .modal-stick{
@@ -223,8 +225,8 @@ $color-darkred:#b2001a;
 }
 .modal2{
     .modal-head{
-    background-color:$color-red;
-    color:$color-white;
+    background-color: #ef394e;
+    color: #fff;
     }
     .overflow-modal{
         overflow-y: scroll;
@@ -235,7 +237,7 @@ $color-darkred:#b2001a;
     overflow-y: scroll;
     width: 900px;
     height: 100px;
-    color:$color-gray;
+    color:rgb(146, 143, 143) ;
 }
 .f-bg{
     background-color: #3c4b6d;

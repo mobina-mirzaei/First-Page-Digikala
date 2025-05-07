@@ -1,8 +1,7 @@
-$color-gray :#808080 ; 
+$color-gray :gray ; 
 $color-lightgray :#d1d1d193 ;
 $color-darkwhite:#ececec ;
 $color-white : #fff;
-$color-black:#000;
 $color-red :  #ef394e ;
 $color-orange:#ff5722;
 $color-green:#008000 ;
@@ -88,7 +87,7 @@ $color-darkred:#b2001a;
     
 }
 .b-red-style{
-    background-color:$color-red;
+    background-color:#ef394e;
     border-radius: 12px;
     padding:10px 30px;
     .card-style{
@@ -105,7 +104,7 @@ $color-darkred:#b2001a;
 }
 .s-font{
     font-size: small;
-    color:$color-gray;
+    color: rgb(146, 143, 143);
     direction: center;
 }
 .font-h6{
@@ -114,7 +113,7 @@ $color-darkred:#b2001a;
 }
 .small-font{
     font-size: small;
-    color: $color-black;
+    color: rgb(0, 0, 0);
     direction: center;
 }
 .img-one{
@@ -195,10 +194,29 @@ $color-darkred:#b2001a;
     font-size: 36px;
     color:$color-gray;
 }
+
+
+
+.back-footer{
+    background-color:$color-darkwhite;
+}
+// .card1{
+//     border: 1px solid rgb(166, 164, 164);
+// }
+
+
+
 .btn-style{
-    border:1px solid $color-lightgray;
-    background-color:$color-white;
+    border:1px solid rgba(209, 209, 209, 0.575);
+    background-color: #fff;
     border-radius: 7px;
+}
+
+.overstyle{
+    overflow-y: scroll;
+    width: 900px;
+    height: 100px;
+    color:rgb(146, 143, 143) ;
 }
 .modal-stick{
     position: sticky;
@@ -221,25 +239,18 @@ $color-darkred:#b2001a;
         border-radius: 7px;
     }
 }
-.modal2{
-    .modal-head{
-    background-color:$color-red;
-    color:$color-white;
-    }
-    .overflow-modal{
-        overflow-y: scroll;
-        height: 350px;
-    }
+
+
+.modal-head{
+    background-color: #ef394e;
+    color: #fff;
 }
-.overstyle{
+.overflow-modal{
     overflow-y: scroll;
-    width: 900px;
-    height: 100px;
-    color:$color-gray;
+    height: 350px;
 }
 .f-bg{
     background-color: #3c4b6d;
 }
-.back-footer{
-    background-color:$color-darkwhite;
-}
+
+

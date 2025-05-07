@@ -1,8 +1,7 @@
-$color-gray :#808080 ; 
+$color-gray :gray ; 
 $color-lightgray :#d1d1d193 ;
 $color-darkwhite:#ececec ;
 $color-white : #fff;
-$color-black:#000;
 $color-red :  #ef394e ;
 $color-orange:#ff5722;
 $color-green:#008000 ;
@@ -105,7 +104,7 @@ $color-darkred:#b2001a;
 }
 .s-font{
     font-size: small;
-    color:$color-gray;
+    color:$color-lightgray;
     direction: center;
 }
 .font-h6{
@@ -114,7 +113,7 @@ $color-darkred:#b2001a;
 }
 .small-font{
     font-size: small;
-    color: $color-black;
+    color: rgb(0, 0, 0);
     direction: center;
 }
 .img-one{
@@ -196,8 +195,8 @@ $color-darkred:#b2001a;
     color:$color-gray;
 }
 .btn-style{
-    border:1px solid $color-lightgray;
-    background-color:$color-white;
+    border:1px solid rgba(209, 209, 209, 0.575);
+    background-color: #fff;
     border-radius: 7px;
 }
 .modal-stick{
@@ -223,8 +222,8 @@ $color-darkred:#b2001a;
 }
 .modal2{
     .modal-head{
-    background-color:$color-red;
-    color:$color-white;
+    background-color: #ef394e;
+    color: #fff;
     }
     .overflow-modal{
         overflow-y: scroll;
@@ -235,7 +234,7 @@ $color-darkred:#b2001a;
     overflow-y: scroll;
     width: 900px;
     height: 100px;
-    color:$color-gray;
+    color:rgb(146, 143, 143) ;
 }
 .f-bg{
     background-color: #3c4b6d;
