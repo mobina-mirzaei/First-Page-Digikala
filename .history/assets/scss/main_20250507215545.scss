@@ -1,4 +1,4 @@
-@use './-variables' as vars;
+@import './-variables';
 
 .nav-stick{
     position: sticky;
@@ -6,11 +6,11 @@
     z-index: 1;
     
     .bg-search{
-    background-color:vars.$color-white;}
+    background-color:$color-white;}
 }
 .city-select {
     background-color: #fff3e0;
-    color: vars.$color-orange;
+    color: $color-orange;
     border-radius: 20px;
     padding: 5px 10px;
     font-weight: bold;
@@ -30,9 +30,9 @@
     gap: 6px;
 }
 .nav-menu li a{
-    color:vars.$color-gray;
+    color:$color-gray;
     &:hover{
-        border-bottom: 1px solid vars.$color-red;
+        border-bottom: 1px solid $color-red;
     }
 }
 .dropdown-menu{
@@ -47,7 +47,7 @@
         &:hover{
         border-bottom: none;
         background-color:rgb(255, 255, 255);
-        color:vars.$color-red;
+        color: #ef394e;
     }
 
     }   
@@ -55,40 +55,40 @@
 .card-story{
     img{
         border: 3px solid transparent;
-        background: linear-gradient(vars.$color-white,vars.$color-white)padding-box,
+        background: linear-gradient($color-white,$color-white)padding-box,
         linear-gradient(45deg, #e03d96, #7d4c9e)border-box;
         border-radius: 50%;
         padding: 3px;
-        outline: 3px solid vars.$color-white;
+        outline: 3px solid $color-white;
     }
     .link-stoy{
         span{
-            border: 1px solid vars.$color-white;
-            background-color: vars.$color-pink;
+            border: 1px solid $color-white;
+            background-color: $color-pink;
             border-radius: 5px;
         }
     }
     .link-stoy1{
         span{
-            border: 1px solid vars.$color-white;
-            background-color: vars.$color-darkwhite;
-            color:vars.$color-pink;
+            border: 1px solid $color-white;
+            background-color: $color-darkwhite;
+            color:$color-pink;
             border-radius: 5px;
         }
     }
     
 }
 .b-red-style{
-    background-color:vars.$color-red;
+    background-color:$color-red;
     border-radius: 12px;
     padding:10px 30px;
     .card-style{
-        background-color:vars.$color-white;
+        background-color:$color-white;
         margin: 0 3px;
         padding: 20px 25px 5px 25px;
     }
     .card-style1{
-        background-color:vars.$color-white;
+        background-color:$color-white;
         margin: 0 3px;
         padding: 20px 25px 5px 25px;
         border-radius: 0 5px 5px 0;
@@ -96,7 +96,7 @@
 }
 .s-font{
     font-size: small;
-    color:vars.$color-gray;
+    color:$color-gray;
     direction: center;
 }
 .font-h6{
@@ -105,22 +105,22 @@
 }
 .small-font{
     font-size: small;
-    color: vars.$color-black;
+    color: $color-black;
     direction: center;
 }
 .img-one{
     border-radius: 12px;
 }
 .back-style{
-    background-color: vars.$color-darkwhite;
+    background-color: $color-darkwhite;
     background-image: url(../images/freshPattern.svg);
     background-repeat: no-repeat;
     background-position: left;
     border-radius: 12px;
     .style-b1{
         button{
-            color:vars.$color-white;
-            background-color:vars.$color-green;
+            color:$color-white;
+            background-color:$color-green;
             border: none;
             padding: 5px;
             border-radius: 30px;
@@ -128,8 +128,8 @@
     }
     .style-b2{
         button{
-            background-color:vars.$color-white;
-            color: vars.$color-green;
+            background-color:$color-white;
+            color: $color-green;
             border: none;
             padding:10px;
             border-radius: 30px;
@@ -137,44 +137,44 @@
     }
 }
 .border-style{
-    border: 1px solid vars.$color-lightgray;
+    border: 1px solid $color-lightgray;
     border-radius: 10px;
     padding: 30px;
     .border-style1{
-        border-left: 1px solid vars.$color-lightgray;
+        border-left: 1px solid $color-lightgray;
     }
     .s-b{
-        border-bottom:1px solid vars.$color-lightgray;
+        border-bottom:1px solid $color-lightgray;
     }
     .s-lrb{
-        border-left: 1px solid vars.$color-lightgray;
-        border-right: 1px solid vars.$color-lightgray;
-        border-bottom: 1px solid vars.$color-lightgray;
+        border-left: 1px solid $color-lightgray;
+        border-right: 1px solid $color-lightgray;
+        border-bottom: 1px solid $color-lightgray;
     }
     .s-l{
-        border-left:1px solid vars.$color-lightgray;
+        border-left:1px solid $color-lightgray;
     }
     .percentage{
-        border: 1px solid vars.$color-darkred ;
-        background-color: vars.$color-darkred;
-        color: vars.$color-white;
+        border: 1px solid $color-darkred ;
+        background-color: $color-darkred;
+        color: $color-white;
         border-radius:20px;
         padding:1px;
     }
 }
 .border-style2{
-    border: 1px solid vars.$color-lightgray;
+    border: 1px solid $color-lightgray;
     border-radius: 10px;
     padding: 10px;
     .border-col{
-        border-left:1px solid vars.$color-lightgray;
+        border-left:1px solid $color-lightgray;
         .border-mobile1{
-            border-left: 1px solid vars.$color-lightgray;
-            border-bottom: 1px solid vars.$color-lightgray;
+            border-left: 1px solid $color-lightgray;
+            border-bottom: 1px solid $color-lightgray;
         }
         .border-mobile2{
-            border-top: 1px solid vars.$color-lightgray;
-            border-right: 1px solid vars.$color-lightgray;
+            border-top: 1px solid $color-lightgray;
+            border-right: 1px solid $color-lightgray;
         }
     }
 }
@@ -184,11 +184,11 @@
 }
 .logo-style i{
     font-size: 36px;
-    color:vars.$color-gray;
+    color:$color-gray;
 }
 .btn-style{
-    border:1px solid vars.$color-lightgray;
-    background-color:vars.$color-white;
+    border:1px solid $color-lightgray;
+    background-color:$color-white;
     border-radius: 7px;
 }
 .modal-stick{
@@ -214,8 +214,8 @@
 }
 .modal2{
     .modal-head{
-    background-color:vars.$color-red;
-    color:vars.$color-white;
+    background-color:$color-red;
+    color:$color-white;
     }
     .overflow-modal{
         overflow-y: scroll;
@@ -226,11 +226,11 @@
     overflow-y: scroll;
     width: 900px;
     height: 100px;
-    color:vars.$color-gray;
+    color:$color-gray;
 }
 .f-bg{
     background-color: #3c4b6d;
 }
 .back-footer{
-    background-color:vars.$color-darkwhite;
+    background-color:$color-darkwhite;
 }
